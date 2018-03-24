@@ -2,8 +2,104 @@
 <html>
 <head>
 	<title>Friendship Application Form</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
 </head>
 <body>
+
+	<div class="top-bar">
+		<h2>Do you want to be my friend?</h2>
+		<h5>Fill out this form. Please.</h5>
+	</div>
+
+	<div class="container">
+
+		<!-- Dropdown -->
+
+		<form class="form-inline">
+		  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Which season do you prefer?</label>
+		  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+		    <option selected>Choose...</option>
+		    <option value="1">Winter</option>
+		    <option value="2">Spring</option>
+		    <option value="3">Summer</option>
+		    <option value="4">Fall</option>
+		  </select>
+  		</form>
+
+  		<!-- Text area -->
+
+  		<form>
+  			<div class="form-group">
+		    	<label for="exampleFormControlTextarea1">What is your favorite programming language?</label>
+		    	<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		  	</div>
+		</form>
+	
+		<!-- Radio buttons -->
+
+		<div class="form-check">
+			  <h5>What is your favorite movie genre?</h5>
+			  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+			  <label class="form-check-label" for="exampleRadios1">
+			    Comedy
+			  </label>
+		</div>
+		<div class="form-check">
+			  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+			  <label class="form-check-label" for="exampleRadios2">
+			    Drama
+			  </label>
+		</div>
+		<div class="form-check">
+			  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option2">
+			  <label class="form-check-label" for="exampleRadios3">
+			    Horror
+			  </label>
+		</div>
+		<div class="form-check">
+			  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option4">
+			  <label class="form-check-label" for="exampleRadios4">
+			    Action
+			  </label>
+		</div>
+
+		<br />
+
+		<!-- Check boxes -->
+
+		<div class="form-check">
+			<h5>Which of these films did Audrey Hepburn not appear in?</h5> 
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+		    Charade
+		  </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+		    My Fair Lady
+		  </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+		    Rear Window
+		  </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+		  <label class="form-check-label" for="defaultCheck1">
+		    The Nun's Story
+		  </label>
+		</div>
+
+		<br />
+		
+		<button type="submit" class="btn btn-primary" href="mailto:alexandra.perrotta@gmail.com">Submit</button>
+
+	</div>
 
 </body>
 </html>
